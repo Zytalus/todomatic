@@ -32,13 +32,12 @@ function App(props) {
         <FilterButton />
       </div>
       <h2 id="list-heading">3 tasks remaining</h2>
-      <list
-        role="list"
+      <ul
         className="todo-list stack-large stack-exception"
         aria-labelledby="list-heading"
       >
         {taskList}
-      </list>
+      </ul>
     </div>
   );
 }
